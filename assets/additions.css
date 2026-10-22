@@ -26,11 +26,11 @@ footer{flex-wrap:wrap}.footer-nav{order:1;flex-basis:100%;display:flex;flex-wrap
 @media(prefers-reduced-motion:reduce){.service-motion #service .list>div{opacity:1;transform:none;transition:none}.menu-icon>span{transition:none}}
 
 
-@media(max-width:700px){#concept .copy p,.profile-list p,#service dd,.consultation-note,.faq-answer p,.work>p,.price-intro,#price dd p,#price .note li{line-break:strict;word-break:normal;overflow-wrap:break-word;text-wrap:pretty;min-width:0}#service dt,.profile-list h3,.faq-item button{line-break:strict;text-wrap:pretty}.section-heading>p{white-space:nowrap}}
+@media(max-width:700px){#service dd,.consultation-note,.faq-answer p,.work>p,.price-intro,#price dd p,#price .note li{line-break:strict;word-break:normal;overflow-wrap:break-word;text-wrap:pretty;min-width:0}#service dt,.profile-list h3,.faq-item button{line-break:strict;text-wrap:pretty}.section-heading>p{white-space:nowrap}}
 
 
 @media(max-width:380px){#consultation .section-heading h2{font-size:clamp(30px,9vw,34px)}}
-@supports(word-break:auto-phrase){@media(max-width:700px){#concept .copy p,.profile-list p,#service dd,.consultation-note,.faq-answer p,.work>p,.price-intro,#price dd p,#price .note li,.circle-description,.faq-item button{word-break:auto-phrase}}}
+@supports(word-break:auto-phrase){@media(max-width:700px){#service dd,.consultation-note,.faq-answer p,.work>p,.price-intro,#price dd p,#price .note li,.circle-description,.faq-item button{word-break:auto-phrase}}}
 
 
 
