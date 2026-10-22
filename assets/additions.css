@@ -53,4 +53,4 @@ footer{flex-wrap:wrap}.footer-nav{order:1;flex-basis:100%;display:flex;flex-wrap
 
 
 
-#concept .copy p{font-size:14.25px;max-width:600px;line-height:30px;text-align:left}@media(max-width:700px){#concept .copy p{line-height:28.5px;text-align:justify;text-align-last:left}}
+#concept .copy p{font-size:14.25px;max-width:600px;line-height:30px;text-align:left}@media(max-width:700px){#concept .copy p{width:100%;max-width:none;min-width:0;font-size:13.95px;line-height:28.5px;word-break:normal;line-break:strict;text-wrap:wrap;text-align:left;text-align-last:auto;text-justify:auto}}
